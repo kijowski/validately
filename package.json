@@ -1,0 +1,19 @@
+{
+  "name": "validately",
+  "version": "1.0.0",
+  "description": "Simple tool for timezone conversion. Interview task for Validately.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "Michał Kijowski",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.13.0",
+    "picnic": "^4.1.2",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
