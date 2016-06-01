@@ -52,8 +52,7 @@ class App extends React.Component {
                         <header>
                             <h3>Add new timezone</h3>
                         </header>
-                        <label for='timezonename'>Timezone</label>
-                        <select id='timezonename' ref='tzs'>{moment.tz.names().map(function (name, i) {
+                        <select ref='tzs'>{moment.tz.names().map(function (name, i) {
                             return <option key={i} value={name}>{name}</option>
                         }) }
                         </select>
