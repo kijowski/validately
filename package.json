@@ -4,11 +4,18 @@
   "description": "Simple tool for timezone conversion. Interview task for Validately.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "test": "mocha -w test/helpers/browser.js test/*.spec.js"
   },
   "author": "Michał Kijowski",
   "license": "ISC",
   "dependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-airbnb": "^2.0.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
     "moment": "^2.13.0",
     "moment-timezone": "^0.5.4",
     "picnic": "^4.1.2",
@@ -16,5 +23,13 @@
     "react-dom": "^15.1.0",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.3.0",
+    "jsdom": "^9.2.1",
+    "mocha": "^2.5.3",
+    "react-addons-test-utils": "^15.1.0"
   }
 }
