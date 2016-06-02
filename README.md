@@ -1,22 +1,19 @@
 # Validately.com code challenge.
+Create a world time zone converter.
 
-## Task
-### Description
-Create a world time zone converter
-
-### Requirements:
+## Requirements:
 - Initial page should have two time zones, 1 for the users current time zone and one for GMT time
 - The user should be able to add new time zones to the list of time zones and show the current time in each zone
 - The user should be able to enter any time for each of the listed time zones and it will automatically update what that time is in the other time zones visible on the page.
 - Implement your solution in pure Javascript or ReactJS. At Validately we primarily use the ReactJS view framework. Avoid JQuery.
 
-### Testing:
+## Testing
 Please include test cases for the core of your solution. There are many unit testing tools out there for Javascript and ReactJS.
 
-## Solution
+# Solution
 During the implementation I've tried to keep my solution small and simple. Both project infrastructure and application logic are pretty straightforward and they are described in more details in following sections. 
 
-### Project infrastructure
+## Project infrastructure
 Below you can find a few points describing technical and infrastructural side of my solution: 
 - It is using industry standard tools and libraries.
 - It is based on ReactJS library and it is written in JavaScript. 
@@ -26,7 +23,7 @@ Below you can find a few points describing technical and infrastructural side of
 - Bundling and minification is done with Webpack.
 - Interactive development setting leverages webpack-dev-server.
 
-### Application logic
+## Application logic
 Application logic is splitted into 3 main components:
 #### AnalogClock
 This is a stateless functional component. It is responsible for displaying simple representation of analog clock.
