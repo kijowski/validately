@@ -18,7 +18,7 @@ class AnalogClock extends React.Component {
 }
 AnalogClock.propTypes = {
     minute: React.PropTypes.number.isRequired,
-    hour: React.PropTypes.number.isRequired,
+    hour: React.PropTypes.number.isRequired
 }
 
 export default AnalogClock;

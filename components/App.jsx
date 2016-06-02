@@ -19,7 +19,7 @@ class App extends React.Component {
         this.setState({ utctime: e });
     }
 
-    addNewUtcRegion(e) {
+    addNewUtcRegion() {
         var selectRef = ReactDOM.findDOMNode(this.refs.tzs)
         var newOffsets = this.state.offsets.slice();
         newOffsets.push(selectRef.value);
